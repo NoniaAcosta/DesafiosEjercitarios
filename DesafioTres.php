@@ -1,6 +1,8 @@
 <?php
 require_once 'Database.php';
-
+// Pasos para ejecutar
+// ejecutar; php -S localhost:8000
+// Luego ir al navegador y usar por ejemplo:http://localhost:8000/DesafioTres.php?id=1
 class DesafioDos
 {
 
@@ -34,6 +36,4 @@ if (isset($_GET['id']) && is_numeric($_GET['id'])) {
         'message' => 'Parámetro ID faltante o inválido'
     ]);
 }
-//Pasos para ejecutar
-//ejecutar; php -S localhost:8000
-//Luego ir al navegador y usar por ejemplo:http://localhost:8000/DesafioTres.php?id=1
+
